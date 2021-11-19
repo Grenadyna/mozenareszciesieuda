@@ -56,12 +56,25 @@ public class Main {
 //        System.out.println(++number2);
 
 
-        ArrayList<String> arrayList = new ArrayList<>();
-        String[] nameTable = new String[4];
-        String[] nameTableBio = {"kasia", "tomasz", "anna", "joanna"};
-        System.out.println(nameTableBio);
-        for(int i = 0; i < nameTableBio.length; i++){
-            System.out.println(nameTableBio[i]);
+//        ArrayList<String> arrayList = new ArrayList<>();
+//        String[] nameTable = new String[4];
+//        String[] nameTableBio = {"kasia", "tomasz", "anna", "joanna"};
+//        System.out.println(nameTableBio);
+//        for(int i = 0; i < nameTableBio.length; i++){
+//            System.out.println(nameTableBio[i]);
+
+        int[]tablica = new int[10];
+        for (int i = 0; i <100; i++)
+            tablica[i] = i + 1;
+        int zmienna = tablica[3];
+        for(int i = 0; i < 10; i++)
+            System.out.println("Kolejna komórka to:" + tablica[i]);
+
+//        int ArrayList<String> arrayList = new ArrayList<>();
+//        String[] nameTable    = new String[5];
+//        String[] nameTableBio = {"1,2,3,4,5,6,7,};
+
+
 
         }
 
