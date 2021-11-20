@@ -1,27 +1,82 @@
 public class Main {
     public static void main(String[] args) {
-        int[] tablica = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; //długośc tablicy
-        for (int i = 0; i < tablica.length; i++) {  // pętla o długości długości tablicy
-            if (tablica[i] < 3) {
-                System.out.println("True = " + tablica[i]);
-            }
-            else if (tablica[i] > 5)
-                    System.out.println("False = " + tablica[i]);
-        }
+
+//  --------------------------------------------------------------------------- PĘTLA FOR IF ---------------------------
+//        int[] tablica = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};                                          //długośc tablicy
+//        for (int i = 0; i < tablica.length; i++) {                             // pętla o długości długości tablicy
+//            if (tablica[i] < 3) {
+//                System.out.println("True = " + tablica[i]);
+//            }
+//            else if (tablica[i] > 5)
+//                    System.out.println("False = " + tablica[i]);
+//        }
+//  -------------------------------------------------------------------------- PĘTLA FOR EACH --------------------------
+//    String [] cars ={"Maluch", "Multipla", "Twingo", "Tesla"};
+//            for(String car:cars){
+//                System.out.println(car);
+//            }
+//    int[] tablica = {1,2,3,4,54,};
+//            for (int liczba:tablica){
+//              if(liczba > 2 && liczba < 5)
+//              System.out.println(liczba);
+//        }
+//  --------------------------------------------------------------------------- PĘTLA SWITCH ---------------------------
+//         int day = 5;
+//         switch(day) {
+//             case 1:
+//                 System.out.println("Monday");
+//                 break;
+//             case 2:
+//                 System.out.println("Tuesday");
+//             default:
+//                 System.out.println("weekend");
+//
+//         }
+//  ------------------------------------------------------------------------- PĘTLA WHILE ------------------------------
+//        int i = 0;
+//        while (i < 5) {
+//            System.out.println(i);
+//            i++;
+//        }
+//  ------------------------------------------------------------------------- PĘTLA DO WHILE ---------------------------
+//        int j = 0;
+//        do {
+//            System.out.println(j);
+//            j++;
+//        }
+//        while (j < 5);
+//  ------------------------------------------------------------------ PĘTLA IF == (PORÓWNYWANIE) ----------------------
+//        for (int i = 0; i < 10; i++) {
+//            if (i == 5) {
+//                break;
+//            }
+//            System.out.println(i);
+//        }
+//
+//        for (int i = 0; i < 10; i++) {                          //przerwa tylko na piąteczkę - pauza na zadanie//
+//            if (i == 5) {
+//                continue;
+//            }
+//            System.out.println(i);
+//        }
+//
+//        for (int i = 0; i < 10; i++) {                   //przerwa tylko na piąteczkę - pauza na zadanie+wyświetlenie//
+//            if (i == 5) {
+//                int x;
+//                x = i + 5;
+//                System.out.println(x);
+//                continue;
+//            }
+//            System.out.println(i);
+//        }
+// ---------------------------------------------------------------------------------------------------------------------
+
+//                                      OBIEKTOWO
+
+
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
+// ---------------------------------------------------------------------------------------------------------------------
 //public class Main {
 //    public static void main(String[] args) {
 //        int[] tablica = new int[10];
@@ -38,8 +93,7 @@ public class Main {
 //        System.out.println("a suma to: " + suma);
 //    }
 //}
-
-
+//        ------------------------------------------------------------------
 //
 //        int liczba = 5;
 //        int liczba2 = 2;
