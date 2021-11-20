@@ -1,34 +1,44 @@
 public class Main {
     public static void main(String[] args) {
-        int[] tablica = new int[10];
-        for (int i = 0; i < 10; i++)
-            tablica[i] = i + 1;
-
-        int zmienna = tablica[3];
-        for (int i = 0; i < 10; i++)
-            System.out.println("Kolejna komórka to: " + tablica[i]);
-
-        int suma = 0;
-        for (int i=0; i < 10; i++) {
-            suma += tablica[i];
+        int[] tablica = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; //długośc tablicy
+        for (int i = 0; i < tablica.length; i++) {  // pętla o długości długości tablicy
+            if (tablica[i] < 3) {
+                System.out.println("True = " + tablica[i]);
+            }
+            else if (tablica[i] > 5)
+                    System.out.println("False = " + tablica[i]);
         }
-        System.out.println("a suma to: " + suma);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 //public class Main {
 //    public static void main(String[] args) {
 //        int[] tablica = new int[10];
-//
 //        for (int i = 0; i < 10; i++)
 //            tablica[i] = i + 1;
 //
-//        int zmienna = tablica[3];
-//
 //        for (int i = 0; i < 10; i++)
 //            System.out.println("Kolejna komórka to: " + tablica[i]);
+//
+//        int suma = 0;
+//        for (int i=0; i < 10; i++) {
+//            suma += tablica[i];
+//        }
+//        System.out.println("a suma to: " + suma);
 //    }
 //}
+
 
 //
 //        int liczba = 5;
